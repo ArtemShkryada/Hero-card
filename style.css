@@ -1,235 +1,186 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lobster&family=Paytone+One&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-    
+}
 
-.first-card{
+.card {
+    display: inline-block;
     height: 745px;
     width: 512px;
+    padding: 100px;
+}
+
+.first {
     background: fixed linear-gradient(145deg, #44a5b3, #3a8b96);
-    padding-top: 120px;
 }
-.card{
-width: 300px;
-height: 470px;
-background: fixed linear-gradient(145deg, #409aa7, #167c7c);
-box-shadow: 1px 1px 100px #00bbd8,
--1px -1px 100px #00e5ff;
-padding-left: 1px; /*Уникаємо margin collapse*/
-border-radius: 50px;
-margin: 25px auto ;
+
+.second {
+    background: fixed linear-gradient(145deg, #686868, #7b7b7b); 
+    margin-left: -4px;
 }
-.card-body{
-width: 250px;
-height: 350px;
-margin: 25px auto;
-border-radius: 50px 50px 50px 50px;
-padding-top: 1px;
+
+.third {
+    background: fixed linear-gradient(145deg, #9733cd, #7f2bad);
+    margin-left: -4px;
 }
-.card-body-top{
-height: 350px;
-background: fixed linear-gradient(145deg, #409aa7, #167c7c);
-border-radius: 40px 40px 40px 40px;
-margin: 20px auto;
-padding: 10px- auto;
-box-shadow: 1px 1px 13px #444343,
--1px -1px 13px #444343;
+
+
+
+
+
+.cardd {
+    width: 300px;
+    height: 470px;
+    padding-left: 1px;
+    /*Уникаємо margin collapse*/
+    border-radius: 50px;
+    margin: 50px auto;
 }
-.card-body-bottom{
-height: 52px;
-background: fixed linear-gradient(145deg,  #409aa7, #167c7c);
-border-radius: 20px 20px 20px 20px;
-padding-left: 1px; /*Уникаємо margin collapse*/
-box-shadow: 1px 1px 13px #444343,
--1px -1px 13px #444343;
-}
-.img{
-    display: block;
-    width: 250px;
-    margin: 0 auto;
-}
-.text{
-    font-family: 'Paytone One', sans-serif; 
-    font-size: 45px;
-    text-align: center; 
-    color: rgb(227, 227, 228);
-   text-shadow: 2px 5px 3px rgb(28, 26, 26),
-             -2px -2px 1px rgb(83, 23, 23);
-}
-.like{
-    width: 50px;
-    height: 50px;
-    margin: 1px auto;
+
+.firstt {
     background: fixed linear-gradient(145deg, #409aa7, #167c7c);
-    box-shadow: inset 1px 1px 3px #444343,
-    inset -1px -1px 3px #c2c1c1;
-    border-radius: 15px;
-    padding-top: 1px;
-    }
-.card-body-bottom:hover.like img{
-transform: scale(1.2);
-}
-.like:active{
-background: linear-gradient(145deg, #409aa7, #167c7c);
+    box-shadow: 1px 1px 100px #00bbd8,
+        -1px -1px 100px #00e5ff;
 }
 
-
-
-
-
-    
-
-.second-card{
-    height: 745px;
-    width: 512px;
+.secondd {
     background: linear-gradient(145deg, #686868, #7b7b7b);
-    padding-top: 120px ;
-    margin-left: 405px;
-    margin-top: -520px;
+    box-shadow: 1px 1px 60px #000000,
+        -1px -1px 60px #000000;
 }
-.card1{
-width: 300px;
-height: 470px;
-background: linear-gradient(145deg, #686868, #7b7b7b);
-box-shadow:  1px 1px 60px #000000,
-             -1px -1px 60px #000000;
-padding-left: 1px; /*Уникаємо margin collapse*/
-border-radius: 50px;
-margin-left: 110px;
+
+.thirdd {
+    background: linear-gradient(145deg, #9733cd, #7f2bad);
+    box-shadow: 1px 1px 60px #2fa32d,
+        -1px -1px 60px #3fdd3d;
 }
-.card-body1{
-width: 250px;
-height: 350px;
-margin: 25px auto;
-border-radius: 50px 50px 50px 50px;
-padding-top: 1px;
+
+
+
+
+
+
+.card-body {
+    width: 250px;
+    height: 350px;
+    margin: 25px auto;
+    border-radius: 50px 50px 50px 50px;
+    padding-top: 1px;
 }
-.card-body-top1{
-height: 350px;
-background: linear-gradient(145deg, #686868, #7b7b7b);
-border-radius: 40px 40px 40px 40px;
-margin: 20px auto;
-padding: 10px- auto;
-box-shadow:  1px 1px 13px #c4d202,
-             -1px -1px 13px #ffff02;
+
+
+
+
+
+.card-body-top {
+    height: 350px;
+    border-radius: 40px 40px 40px 40px;
+    margin: 25px auto;
 }
-.card-body-bottom1{
-height: 52px;
-background: linear-gradient(145deg, #686868, #7b7b7b);
-border-radius: 20px 20px 20px 20px;
-padding-left: 1px; /*Уникаємо margin collapse*/
-box-shadow:  1px 1px 13px #c4d202,
-             -1px -1px 13px #ffff02;
+
+.body-top1 {
+    background: fixed linear-gradient(145deg, #409aa7, #167c7c);
+    box-shadow: 1px 1px 13px #444343,
+        -1px -1px 13px #444343;
 }
-.img1{
+
+.body-top2 {
+    background: linear-gradient(145deg, #686868, #7b7b7b);
+    box-shadow: 1px 1px 13px #c4d202,
+        -1px -1px 13px #ffff02;
+}
+
+.body-top3 {
+    background: linear-gradient(145deg, #9733cd, #7f2bad);
+    box-shadow: 1px 1px 13px #2fa32d,
+        -1px -1px 13px #3fdd3d;
+}
+
+
+
+
+.card-body-bottom {
+    height: 52px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 1px;
+    /*Уникаємо margin collapse*/
+}
+
+.body-bottom1 {
+    background: fixed linear-gradient(145deg, #409aa7, #167c7c);
+    box-shadow: 1px 1px 13px #444343,
+        -1px -1px 13px #444343;
+}
+
+.body-bottom2 {
+    background: linear-gradient(145deg, #686868, #7b7b7b);
+    box-shadow: 1px 1px 13px #c4d202,
+        -1px -1px 13px #ffff02;
+}
+
+.body-bottom3 {
+    background: linear-gradient(145deg, #9733cd, #7f2bad);
+    box-shadow: 1px 1px 13px #2fa32d,
+        -1px -1px 13px #3fdd3d;
+}
+
+
+
+
+.img {
     display: block;
     width: 250px;
     margin: 0 auto;
 }
-.text{
-    font-family: 'Paytone One', sans-serif; 
-    font-size: 45px;
-    text-align: center; 
-    color: rgb(227, 227, 228);
-   text-shadow: 2px 5px 3px rgb(28, 26, 26),
-             -2px -2px 1px rgb(83, 23, 23);
-}
-.like1{
-    width: 50px;
-    height: 50px;
-    margin: 1px auto;
-    background: fixed linear-gradient(145deg,#686868, #7b7b7b);
-    box-shadow: inset 1px 1px 3px #444343,
-    inset -1px -1px 3px #c2c1c1;
-    border-radius: 15px;
-    padding-top: 1px;
-    }
-.card-body-bottom1:hover.like img{
-transform: scale(1.2);
-}
-.like1:active{
-background: linear-gradient(145deg, #5c5c5c, #6d6d6d);
-}
 
-
-
-
-
-
-
-.third-card{
-    height: 745px;
-    width: 513px;
-    background: linear-gradient(145deg, #9733cd, #7f2bad);
-    padding-top: 120px ;
-    margin-left: 400px;
-    margin-top: -520px;
-}
-.card2{
-width: 300px;
-height: 470px;
-background: linear-gradient(145deg, #9733cd, #7f2bad);
-box-shadow:  1px 1px 60px #2fa32d,
-             -1px -1px 60px #3fdd3d;
-padding-left: 1px; /*Уникаємо margin collapse*/
-border-radius: 50px;
-margin-left: 110px;
-}
-.card-body2{
-width: 250px;
-height: 350px;
-margin: 25px auto;
-border-radius: 50px 50px 50px 50px;
-padding-top: 1px;
-}
-.card-body-top2{
-height: 350px;
-background: linear-gradient(145deg, #9733cd, #7f2bad);
-border-radius: 40px 40px 40px 40px;
-margin: 20px auto;
-padding: 10px- auto;
-box-shadow:  1px 1px 13px #2fa32d,
-             -1px -1px 13px #3fdd3d;
-}
-.card-body-bottom2{
-height: 52px;
-background: linear-gradient(145deg, #9733cd, #7f2bad);
-border-radius: 20px 20px 20px 20px;
-padding-left: 1px; /*Уникаємо margin collapse*/
-box-shadow:  1px 1px 13px #2fa32d,
-             -1px -1px 13px #3fdd3d;
-}
-.img2{
-    display: block;
-    width: 250px;
+.img3 {
     margin-top: 25px;
     padding-top: 15px;
 }
-.text{
-    font-family: 'Paytone One', sans-serif; 
+
+
+.text {
+    font-family: 'Paytone One', sans-serif;
     font-size: 45px;
-    text-align: center; 
+    text-align: center;
     color: rgb(227, 227, 228);
-   text-shadow: 2px 5px 3px rgb(28, 26, 26),
-             -2px -2px 1px rgb(83, 23, 23);
-             padding-top: 15px;
+    text-shadow: 2px 5px 3px rgb(28, 26, 26),
+        -2px -2px 1px rgb(83, 23, 23);
 }
-.like2{
+
+
+
+.like{
     width: 50px;
     height: 50px;
-    margin: 1px auto;
-    background: linear-gradient(145deg, #9733cd, #7f2bad);
-    box-shadow: inset 1px 1px 3px #444343,
-    inset -1px -1px 3px #c2c1c1;
+    margin: 0 auto;
     border-radius: 15px;
     padding-top: 1px;
-    }
-.card-body-bottom2:hover.like img{
-transform: scale(1.2);
 }
-.like2:active{
-background: linear-gradient(145deg, #852c87, #9e34a1);
+
+
+.like1 {
+    background:  linear-gradient(145deg, #409aa7, #167c7c);
+    box-shadow: inset 1px 1px 3px #444343,
+        inset -1px -1px 3px #c2c1c1;
 }
+
+.like2 {
+    background:  linear-gradient(145deg, #686868, #7b7b7b);
+    box-shadow: inset 1px 1px 3px #444343,
+        inset -1px -1px 3px #c2c1c1;
+}
+
+.like3 {
+    background: linear-gradient(145deg, #9733cd, #7f2bad);
+    box-shadow: inset 1px 1px 3px #444343,
+        inset -1px -1px 3px #c2c1c1;
+}
+
+.like:hover img {
+    transform: scale(0.9);
+}
+
