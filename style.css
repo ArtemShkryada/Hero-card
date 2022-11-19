@@ -6,10 +6,14 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 1536px;
+    font-size: 0;
+}
 .card {
     display: inline-block;
     height: 745px;
-    width: 506px;
+    width: 512px;
     padding: 100px;
 }
 
@@ -19,12 +23,10 @@
 
 .second {
     background: fixed linear-gradient(145deg, #686868, #7b7b7b); 
-    margin-left: -4px;
 }
 
 .third {
     background: fixed linear-gradient(145deg, #9733cd, #7f2bad);
-    margin-left: -4px;
 }
 
 
